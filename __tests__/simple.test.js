@@ -1,7 +1,8 @@
-test('1 + 1 = 2', () => {
-  expect(1 + 1).toBe(2);
+import { Sum } from "./simple";
+test("1 + 1 = 2", () => {
+  expect(Sum(1, 1)).toBe(2);
 });
 
-test('1 + 2 = 3', () => {
-  expect(1 + 2).toBe(3);
+test("1 + 2 = 3", () => {
+  expect(Sum(1, 2)).toBe(3);
 });
