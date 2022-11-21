@@ -4,5 +4,5 @@ test("1 + 1 = 2", () => {
 });
 
 test("1 + 2 = 3", () => {
-  expect(Sum(1, 2)).toBe(3);
+  expect(Sum(1, 1)).toBe(3);
 });
